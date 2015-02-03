@@ -1,0 +1,30 @@
+#' adds variables..etc
+#' @export
+square <- function(x){
+  return(x^2)
+}
+print("hello world")                    #' getting a feel'
+
+x <- 3                                  #' creating variables
+print(x)                                #' displaying
+
+y <- 4
+print(x + y)                            #' adding variables
+
+z = 1:20                                #'series
+z
+
+a <- c(1+0i, 2+4i)                      #' imaginary numbers
+a
+as.complex(z)
+as.logical(z)
+as.character(z)
+
+x = 1
+if (x == 1)                             #' basic if statement
+  p = 4
+p
+#' data_frame did not work...data.frame(foo < 1:14 bar <-2:16)
+
+#' m <- matrix(1:6 nrow = 2 ncol=3)
+#'m --- attempted a matrix...didnt work.
